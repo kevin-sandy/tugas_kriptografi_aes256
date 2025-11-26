@@ -40,6 +40,8 @@ Pastikan Anda sudah menginstal Python 3.13 atau versi terbaru.
 
 ```bash
 pip install -r requirements.txt
+```
+--- 
 
 ## 📖 Cara Penggunaan
 
@@ -50,6 +52,7 @@ Mengubah file asli (dataset.csv) menjadi file terenkripsi.
 
 ```bash
 python source/cli.py encrypt dataset.csv dataset.enc -p rahasia123
+```
 
 ### 2. Dekripsi File
 Fitur ini digunakan untuk mengembalikan file yang sudah terenkripsi (format Hex) menjadi file asli yang bisa dibaca kembali.
@@ -57,6 +60,7 @@ Fitur ini digunakan untuk mengembalikan file yang sudah terenkripsi (format Hex)
 **Format Perintah:**
 ```bash
 python source/cli.py decrypt <file_input_enc> <file_output_asli> -p <password>
+```
 
 ## 📂 Struktur Proyek
 
@@ -74,6 +78,7 @@ KRIPTOGRAFI/
 │
 ├── requirements.txt          # Daftar library Python
 └── README.md                 # Dokumentasi ini
+```
 
 ## 🔐 Format Data Output
 
