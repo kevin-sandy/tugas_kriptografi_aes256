@@ -51,7 +51,7 @@ Jalankan perintah berikut melalui terminal dari dalam folder utama proyek.
 Mengubah file asli (dataset.csv) menjadi file terenkripsi.
 
 ```bash
-python source/cli.py encrypt dataset.csv dataset.enc -p rahasia123
+python src/cli.py encrypt dataset.csv dataset.enc -p rahasia123
 ```
 
 ### 2. Dekripsi File
@@ -59,7 +59,7 @@ Fitur ini digunakan untuk mengembalikan file yang sudah terenkripsi (format Hex)
 
 **Format Perintah:**
 ```bash
-python source/cli.py decrypt dataset.enc dataset_decrypt.csv -p rahasia123
+python src/cli.py decrypt dataset.enc dataset_decrypt.csv -p rahasia123
 ```
 
 ## 📂 Struktur Proyek
