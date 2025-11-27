@@ -59,7 +59,7 @@ Fitur ini digunakan untuk mengembalikan file yang sudah terenkripsi (format Hex)
 
 **Format Perintah:**
 ```bash
-python source/cli.py decrypt <file_input_enc> <file_output_asli> -p <password>
+python source/cli.py decrypt dataset.enc dataset_decrypt.csv -p rahasia123
 ```
 
 ## 📂 Struktur Proyek
