@@ -3,7 +3,7 @@
 **Tugas Kriptografi Mata Kuliah Keamanan Data**
 **Program Studi S1 Data Sains - Telkom University**
 
-Aplikasi ini adalah perangkat lunak berbasis *Command-Line Interface* (CLI) yang berfungsi untuk mengamankan dataset tabular (CSV, TXT) menggunakan algoritma kriptografi **AES-256** dalam mode **CBC** (*Cipher Block Chaining*).
+Aplikasi ini adalah perangkat lunak berbasis *Command-Line Interface* (CLI) yang berfungsi untuk mengamankan dataset tabular (CSV, TXT) menggunakan algoritma kriptografi **AES-256** (Advanced Encryption Standard-256 bit) dalam mode **CBC** (*Cipher Block Chaining*).
 
 Proyek ini dibuat untuk memenuhi Tugas Individu/Kelompok dengan implementasi algoritma Block Cipher standar NIST.
 
