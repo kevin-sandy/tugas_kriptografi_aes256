@@ -51,7 +51,7 @@ Jalankan perintah berikut melalui terminal dari dalam folder utama proyek.
 Mengubah file asli (dataset.csv) menjadi file terenkripsi.
 
 ```bash
-python src/cli.py encrypt dataset.csv dataset.enc -p rahasia123
+python src/cli.py encrypt dataset/dataset.csv results/dataset.enc -p rahasia123
 ```
 
 ### 2. Dekripsi File
@@ -59,7 +59,7 @@ Fitur ini digunakan untuk mengembalikan file yang sudah terenkripsi (format Hex)
 
 **Format Perintah:**
 ```bash
-python src/cli.py decrypt dataset.enc dataset_decrypt.csv -p rahasia123
+python src/cli.py decrypt results/dataset.enc results/dataset_decrypt.csv -p rahasia123
 ```
 
 ## 📂 Struktur Proyek
@@ -72,9 +72,11 @@ KRIPTOGRAFI/
 ├── dataset/                  # Folder penyimpanan file Input & Output
 │   └── dataset.csv           # File asli (Target Enkripsi)
 │
-├── src/                      # Folder Kode Program (Source Code)
+├── source/                   # Folder Kode Program (Source Code)
 │   ├── cli.py                # [Frontend] Interface Terminal
 │   └── aes_utils.py          # [Backend] Logika AES, Padding, & Key Derivation
+│
+├── results/                  # Folder Hasil (.enc, .csv)
 │
 ├── requirements.txt          # Daftar library Python
 └── README.md                 # Dokumentasi ini
