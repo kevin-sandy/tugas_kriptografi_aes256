@@ -72,11 +72,11 @@ KRIPTOGRAFI/
 ├── dataset/                  # Folder penyimpanan file Input & Output
 │   └── dataset.csv           # File asli (Target Enkripsi)
 │
+├── results/                  # Folder Hasil (.enc, .csv)
+│
 ├── source/                   # Folder Kode Program (Source Code)
 │   ├── cli.py                # [Frontend] Interface Terminal
 │   └── aes_utils.py          # [Backend] Logika AES, Padding, & Key Derivation
-│
-├── results/                  # Folder Hasil (.enc, .csv)
 │
 ├── requirements.txt          # Daftar library Python
 └── README.md                 # Dokumentasi ini
